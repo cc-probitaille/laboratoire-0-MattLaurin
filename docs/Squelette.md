@@ -1,9 +1,9 @@
 # Identification de l'étudiant
 
-- <nomComplet1>Entrer votre nom</nomComplet1>
-- <courriel1>Entrer votre courriel</courriel1>
-- <codeMoodle1>Entrer votre code moodle obtenu à partir de Signets, 2 lettres majuscule avec 5 chiffres</codeMoodle1>
-- <githubAccount1>Entrer l'identifiant de votre compte github</githubAccount1>
+- <nomComplet1>Matthieu Laurin</nomComplet1>
+- <courriel1>Matthieu.Laurin.1@ens.etsmtl.ca</courriel1>
+- <codeMoodle1>AT81990</codeMoodle1>
+- <githubAccount1>MattLaurin</githubAccount1>
 
 # Squelette pour un API simple dans Node, Express et TypeScript
 
@@ -163,6 +163,11 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 4. Le Joueur demande à terminer le jeu.
 1. ~~Le Système affiche un tableau de bord avec les noms des joueurs et le ratio des parties gagnées (nombre de fois gagné / nombre de lancers).~~
 
+#### Redémarrer
+
+1. Le Joueur demande à redémarrer l'application.
+2. Le Système termine tous les jeux en cours et redémarre l'application.
+
 ### Diagramme de cas d'utilisation
 
 ![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dcu.puml)
@@ -174,6 +179,10 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 ### Diagramme de séquence système (DSS)
 
 ![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dss-jouer.puml)
+
+### Diagramme de classes logicielles
+![Diagramme de classes logicielles Partie 1](image-1.png)
+![Diagramme de classes logicielles Partie 2](image-3.png)
 
 ### Contrats d'opération et Réalisations de cas d'utilisation (RDCU)
 

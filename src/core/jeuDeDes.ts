@@ -82,4 +82,9 @@ export class JeuDeDes {
         return JSON.stringify(Array.from(this._joueurs.values()));
     }
 
+    public redemarrerJeu(){
+        this._joueurs.clear();
+        //return JSON.stringify({message: "Le jeu a été redémarré."});
+    }
+
 }
