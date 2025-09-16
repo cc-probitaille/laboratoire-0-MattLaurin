@@ -39,4 +39,11 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
     expect(joueursArray.length).toBe(0);
   });
 
+  it('devrait contenir un test pour jouer qui retourne 404 (après redemarrerJeu())', async () => {
+    const response = await request.get('/api/v1/jeu/jouer/' + testNom1);
+    expect(response.status).toBe(404); 
+    expect(response.type).toBe('application/json');
+    expect(response.body.error).toInclude("n'existe pas");
+  });
+
 });
