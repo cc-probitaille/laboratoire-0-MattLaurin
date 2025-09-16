@@ -18,9 +18,9 @@ c->d1 : v1 = valeur
 note right : selon Expert
 c->d2 : brasser()
 note right : selon Expert
-c->d3 : brasser()
-note right : selon Expert
 c->d2 : v2 = valeur
+note right : selon Expert
+c->d3 : brasser()
 note right : selon Expert
 c->d3 : v3 = valeur
 note right : selon Expert

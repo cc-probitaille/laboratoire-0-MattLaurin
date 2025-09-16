@@ -170,19 +170,18 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ### Diagramme de cas d'utilisation
 
-![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dcu.puml)
+![Diagramme de cas d'utilisation](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-MattLaurin/refs/heads/master/docs/modeles/dcu.puml)
 
 ### Modèle du domaine
 
-![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/mdd.puml)
+![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-MattLaurin/refs/heads/master/docs/modeles/mdd.puml)
 
 ### Diagramme de séquence système (DSS)
 
 ![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dss-jouer.puml)
 
 ### Diagramme de classes logicielles
-![Diagramme de classes logicielles Partie 1](image-1.png)
-![Diagramme de classes logicielles Partie 2](image-3.png)
+![Diagramme de classes logicielles Partie 1](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-MattLaurin/refs/heads/master/docs/modeles/App.puml)
 
 ### Contrats d'opération et Réalisations de cas d'utilisation (RDCU)
 
@@ -196,7 +195,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, demarrerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-demarrerJeu.puml)
+![Diagramme de séquence, demarrerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-MattLaurin/refs/heads/master/docs/modeles/rdcu-demarrerJeu.puml)
 
 #### Opération: `jouer(nom:String)`
 
@@ -210,7 +209,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-MattLaurin/refs/heads/master/docs/modeles/rdcu-jouer.puml)
 
 #### Opération: `terminerJeu(nom:String)`
 
@@ -218,6 +217,8 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 - L'instance j de Joueur a été supprimée sur une base de correspondance avec nom
 
-![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-terminerJeu.puml)
+![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-MattLaurin/refs/heads/master/docs/modeles/rdcu-terminerJeu.puml)
+
+
 
 [README.md](../README.md)
