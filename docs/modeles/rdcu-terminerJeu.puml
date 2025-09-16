@@ -1,4 +1,4 @@
-@startuml
+@startumlRDCU pour terminerJeu
 skinparam style strictuml
 skinparam defaultfontname Verdana
 title RDCU pour terminerJeu
